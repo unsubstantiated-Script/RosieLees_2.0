@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rosie Lee's Tea Shop</title>
+    <link rel="shortcut icon" type="img/png" href="img/logofav.png">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+
+
+
+
+
+
+<script>
+    //Get the current year for the copyright
+    $("#year").text(new Date().getFullYear());
+
+    // init scrollspy
+    $('body').scrollspy({
+        target: '#main-nav'
+    });
+
+    //smooth scroll
+    //init smooth scroll
+    $('#main-nav a').on('click', function (e) {
+        //check for a hash value
+        if (this.hash !== '') {
+            //prevent default behavior
+
+            e.preventDefault();
+
+            //store hash
+            const hash = this.hash;
+
+            //animate smooth scroll
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 900, function () {
+                //add has to url after scroll
+
+                window.location.hash = hash;
+            })
+        }
+    });
+</script>
+</body>
+
+</html>
