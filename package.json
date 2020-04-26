@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server",
+    "format": "prettier --write --no-config .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,14 @@
   },
   "homepage": "https://github.com/unsubstantiated-Script/rosieLees_2.0#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "husky": "^4.2.5",
+    "lite-server": "^2.5.4",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
