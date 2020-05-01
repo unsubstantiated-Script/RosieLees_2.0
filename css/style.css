@@ -1,0 +1,26 @@
+body {
+    color: #094971;
+    font-family: 'Quicksand',
+        sans-serif;
+}
+
+.nav-text {
+    font-family: 'Pacifico',
+        cursive;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #8B4638;
+}
+
+h3 {
+    color: #094971;
+    padding: 1rem;
+}
+
+h3:hover {
+    background-color: #094971;
+    border-radius: 5px;
+    color: #fff;
+}
