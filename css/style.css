@@ -24,3 +24,45 @@ h3:hover {
     border-radius: 5px;
     color: #fff;
 }
+
+/* headlines with lines */
+
+h2.red-head {
+    font-family: 'Pacifico',
+        cursive;
+    color: #BF0C2A;
+}
+
+.decorated {
+    overflow: hidden;
+    text-align: center;
+}
+
+.decorated>span {
+    position: relative;
+    display: inline-block;
+}
+
+.decorated>span:before,
+.decorated>span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid #094971;
+    width: 591px;
+    /* half of limiter*/
+    margin: 0 20px;
+}
+
+.decorated>span:before {
+    right: 100%;
+}
+
+.decorated>span:after {
+    left: 100%;
+}
+
+blockquote,
+cite {
+    font-weight: bold;
+}
