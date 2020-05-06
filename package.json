@@ -1,0 +1,29 @@
+{
+  "name": "rosielees_2.0",
+  "version": "0.0.1",
+  "description": "Rosie Lee's Teas website",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write --no-config ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unsubstantiated-Script/rosieLees_2.0.git"
+  },
+  "author": "Justin Fulton & Cory Perkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unsubstantiated-Script/rosieLees_2.0/issues"
+  },
+  "homepage": "https://github.com/unsubstantiated-Script/rosieLees_2.0#readme",
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
