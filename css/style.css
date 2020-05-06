@@ -1,68 +1,65 @@
 body {
-    color: #094971;
-    font-family: 'Quicksand',
-        sans-serif;
+  color: #094971;
+  font-family: "Quicksand", sans-serif;
 }
 
 .nav-text {
-    font-family: 'Pacifico',
-        cursive;
-    text-decoration: none;
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
 }
 
 footer {
-    background-color: #8B4638;
+  background-color: #8b4638;
 }
 
 h3 {
-    color: #094971;
-    padding: 1rem;
+  color: #094971;
+  padding: 1rem;
 }
 
 h3:hover {
-    background-color: #094971;
-    border-radius: 5px;
-    color: #fff;
+  background-color: #094971;
+  border-radius: 5px;
+  color: #fff;
 }
 
 /* headlines with lines */
 
 h2.red-head {
-    font-family: 'Pacifico',
-        cursive;
-    color: #BF0C2A;
+  font-family: "Pacifico", cursive;
+  color: #bf0c2a;
 }
 
 .decorated {
-    overflow: hidden;
-    text-align: center;
+  overflow: hidden;
+  text-align: center;
 }
 
-.decorated>span {
-    position: relative;
-    display: inline-block;
+.decorated > span {
+  position: relative;
+  display: inline-block;
 }
 
-.decorated>span:before,
-.decorated>span:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    border-bottom: 2px solid #094971;
-    width: 591px;
-    /* half of limiter*/
-    margin: 0 20px;
+.decorated > span:before,
+.decorated > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  border-bottom: 2px solid #094971;
+  width: 591px;
+  /* half of limiter*/
+  margin: 0 20px;
 }
 
-.decorated>span:before {
-    right: 100%;
+.decorated > span:before {
+  right: 100%;
 }
 
-.decorated>span:after {
-    left: 100%;
+.decorated > span:after {
+  left: 100%;
 }
 
 blockquote,
 cite {
-    font-weight: bold;
+  font-weight: bold;
 }
