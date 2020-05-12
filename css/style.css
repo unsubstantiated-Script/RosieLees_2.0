@@ -1,8 +1,10 @@
 body {
   color: #094971;
   font-family: "Quicksand", sans-serif;
+
   font-size: 20px;
   background: #f8f9fa;
+
 }
 
 .nav-text {
@@ -30,6 +32,7 @@ h3:hover {
 .red-head {
   font-family: "Pacifico", cursive;
   color: #bf0c2a;
+
 }
 
 .white-head {
@@ -38,6 +41,7 @@ h3:hover {
   border-bottom: 2px solid #fff;
   overflow: hidden;
   text-align: center;
+
 }
 
 .decorated {
@@ -85,3 +89,4 @@ cite {
 .gallery {
   border-bottom: solid 1px #094971;
 }
+
