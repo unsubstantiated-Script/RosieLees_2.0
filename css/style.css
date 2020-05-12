@@ -2,7 +2,7 @@ body {
   color: #094971;
   font-family: "Quicksand", sans-serif;
   font-size: 20px;
-  background: #F8F9FA;
+  background: #f8f9fa;
 }
 
 .nav-text {
@@ -45,13 +45,13 @@ h3:hover {
   text-align: center;
 }
 
-.decorated>span {
+.decorated > span {
   position: relative;
   display: inline-block;
 }
 
-.decorated>span:before,
-.decorated>span:after {
+.decorated > span:before,
+.decorated > span:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -61,12 +61,11 @@ h3:hover {
   margin: 0 20px;
 }
 
-
-.decorated>span:before {
+.decorated > span:before {
   right: 100%;
 }
 
-.decorated>span:after {
+.decorated > span:after {
   left: 100%;
 }
 
@@ -81,4 +80,8 @@ cite {
 
 .bg-blue {
   background: #094971;
+}
+
+.gallery {
+  border-bottom: solid 1px #094971;
 }
