@@ -368,7 +368,7 @@
                     <!-- Sign up will need backend work later-->
                     <div class="col-sm-4">
                         <div class="row px-3 mb-5">
-                            <p>Subscribe to our newsletter</p>
+                            <h4 class="mb-3">Subscribe to Our Newsletter</h4>
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Email Address"
                                     aria-label="Recipient's username" aria-describedby="basic-addon2">
@@ -428,35 +428,6 @@
 
             //Get the current year for the copyright
             $("#year").text(new Date().getFullYear());
-
-            // init scrollspy
-            $('body').scrollspy({
-                target: '#main-nav'
-            });
-
-            //smooth scroll
-            //init smooth scroll
-            $('#main-nav a').on('click', function (e) {
-                //check for a hash value
-                if (this.hash !== '') {
-                    //prevent default behavior
-
-                    e.preventDefault();
-
-                    //store hash
-                    const hash = this.hash;
-
-                    //animate smooth scroll
-
-                    $('html, body').animate({
-                        scrollTop: $(hash).offset().top
-                    }, 900, function () {
-                        //add has to url after scroll
-
-                        window.location.hash = hash;
-                    })
-                }
-            });
         </script>
 </body>
 
