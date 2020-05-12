@@ -63,3 +63,8 @@ blockquote,
 cite {
   font-weight: bold;
 }
+
+.slick-prev:before,
+.slick-next:before {
+  color: #094971 !important;
+}
