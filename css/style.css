@@ -1,6 +1,8 @@
 body {
   color: #094971;
   font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  background: #F8F9FA;
 }
 
 .nav-text {
@@ -30,18 +32,26 @@ h3:hover {
   color: #bf0c2a;
 }
 
+.white-head {
+  font-family: "Pacifico", cursive;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  overflow: hidden;
+  text-align: center;
+}
+
 .decorated {
   overflow: hidden;
   text-align: center;
 }
 
-.decorated > span {
+.decorated>span {
   position: relative;
   display: inline-block;
 }
 
-.decorated > span:before,
-.decorated > span:after {
+.decorated>span:before,
+.decorated>span:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -51,15 +61,20 @@ h3:hover {
   margin: 0 20px;
 }
 
-.decorated > span:before {
+
+.decorated>span:before {
   right: 100%;
 }
 
-.decorated > span:after {
+.decorated>span:after {
   left: 100%;
 }
 
 blockquote,
 cite {
   font-weight: bold;
+}
+
+.bg-wallpaper {
+  background: url(/img/teawallpaper.png) no-repeat center center/cover;
 }
