@@ -75,6 +75,11 @@ cite {
   font-weight: bold;
 }
 
+.slick-prev:before,
+.slick-next:before {
+  color: #094971 !important;
+}
+
 .bg-wallpaper {
   background: url(/img/teawallpaper.png) no-repeat center center/cover;
 }
